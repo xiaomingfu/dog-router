@@ -1,0 +1,38 @@
+.App {
+  margin: 80px auto;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.active-link {
+  color: pink;
+  border-bottom: 1px solid white;
+}
+
+.App-nav {
+  color: white;
+  width: 50%;
+  display: flex;
+  margin: 1rem auto;
+  justify-content: space-around;
+}
+.App-nav:hover {
+  color: rgba(248, 187, 208, 1);
+  cursor: pointer;
+}
+.App-link {
+  color: #09d3ac;
+}
